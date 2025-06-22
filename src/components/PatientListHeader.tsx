@@ -15,7 +15,7 @@ const PatientListHeader = () => {
         <div className="flex items-center" >
           <div className="flex items-center justify-center rounded-full overflow-hidden border border-blue-600 w-10 h-10 sm:w-15 sm:h-15">
             <Image 
-              src="../public/logo.PNG"
+              src="/logo.PNG"
               alt="sauki phc clinic logo" 
               width={150} 
               height={150} 
