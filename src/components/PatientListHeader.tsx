@@ -1,7 +1,7 @@
 "use client"
 import {AppState} from "@/store"
 import Image from "next/image";
-import clinicLogo from "@/images/logo.png"
+import clinicLogo from "@/images/logo.PNG"
 import { FaHospitalUser } from "react-icons/fa6";
 
 const PatientListHeader = () => {
