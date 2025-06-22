@@ -2,7 +2,6 @@
 import {motion} from "framer-motion"
 import { AppState } from "@/store"
 import Image from "next/image"
-import clinicLogo from "@/images/logo.png"
 import {useState} from "react"
 import "../globals.css"
 import { BsEyeFill, BsEyeSlashFill } from "react-icons/bs"
@@ -48,7 +47,7 @@ const LoginPage = () => {
         animate={{scale: 1, rotate: 0}}
         transition={{duration: 2}}
       >
-        <Image src={clinicLogo} alt="clinic logo" width={100} height={100} />
+        <Image src="/logo.PNG" alt="clinic logo" width={100} height={100} />
       </motion.div> 
     </div>
       

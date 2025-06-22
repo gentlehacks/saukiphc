@@ -1,7 +1,6 @@
 "use client";
 import { AppState } from "@/store";
 import {motion} from "framer-motion"
-import clinicLogo from "@/images/logo.png"
 import Image from 'next/image'
 import {useRouter} from "next/navigation"
 import {useState} from "react"
@@ -40,7 +39,7 @@ const MenuPage = () => {
       transition={{duration: 1}}
     >
       <div className="flex items-center justify-center w-15 h-15 rounded-full overflow-hidden border border-blue-500">
-        <Image src={clinicLogo} alt="clinic logo" width={120} height={120} />
+        <Image src="/logo.PNG" alt="clinic logo" width={120} height={120} />
       </div>
       <div className="flex flex-col ml-3">
         <h1 className="text-lg font-light">Sauki PHC Clinic</h1>

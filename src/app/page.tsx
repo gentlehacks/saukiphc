@@ -1,8 +1,7 @@
 "use client";
 import {motion} from "framer-motion";
 import { AppState } from "@/store";
-import doctorsImage from "@/images/doctors.svg"
-import Link from 'next/link'
+import Link from 'next/link';
 import "./globals.css"
 import Image from 'next/image'
 import { IoArrowForward } from "react-icons/io5";
@@ -21,7 +20,7 @@ const Home = () => {
           animate={{x: 0, opacity: 1}}
           transition={{duration: 1}}
         >
-          <Image src={doctorsImage} alt="3d-image" width={250} height={250} />
+          <Image src="/doctors.svg" alt="3d-image" width={250} height={250} />
         </motion.div>
         <motion.h1 className={`text-3xl sm:text-[2.5rem] text-center font-bold text-gray-100 px-[1rem] my-[2rem] mt-[4rem]
             ${appTheme ? 'text-blue-600' : 'text-blue-600'}

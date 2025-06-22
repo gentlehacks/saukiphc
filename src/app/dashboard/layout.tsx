@@ -29,7 +29,7 @@ const DashboardLayout = ({children}: {children: ReactNode}) => {
   );
   const {appTheme} = AppState()
 
-  const [loading, setLoading] = useState<boolea                                                                      n>(true);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const checkUser = async () => {
